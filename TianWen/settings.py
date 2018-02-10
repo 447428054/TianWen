@@ -187,6 +187,7 @@ INSTALLED_APPS = (
 
     'djangobb_forum',
     'Note',
+    'Search',
 )
 
 # A sample logging configuration. The only tangible logging

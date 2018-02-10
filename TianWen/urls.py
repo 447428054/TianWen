@@ -24,6 +24,7 @@ urlpatterns = [
     url(r'^forum/account/', include('allauth.urls')),
     url(r'^forum/', include('djangobb_forum.urls', namespace='djangobb')),
     url(r'^Note/', include('Note.urls',namespace='Note')),
+    url(r'^Search/',include('Search.urls',namespace='Search')),
 ]
 
 # PM Extension
